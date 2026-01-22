@@ -12,6 +12,7 @@ struct W_AquaClashApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
